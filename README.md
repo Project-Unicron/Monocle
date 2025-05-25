@@ -77,8 +77,7 @@ apps/monocle/
 ---
 
 ## License
-Specify your license here.
-
+This prject is licensed under GPL3
 ---
 
 ## Contact & Support
