@@ -77,7 +77,8 @@ apps/monocle/
 ---
 
 ## License
-This prject is licensed under GPL3
+
+This prject happily is licensed under GPL3 - Fight the power!
 ---
 
 ## Contact & Support
