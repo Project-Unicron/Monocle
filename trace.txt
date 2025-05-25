@@ -1,0 +1,31 @@
+== Info:   Trying 127.0.0.1:8000...
+== Info: Connected to localhost (127.0.0.1) port 8000 (#0)
+=> Send header, 140 bytes (0x8c)
+0000: POST /embed/image HTTP/1.1
+001c: Host: localhost:8000
+0032: User-Agent: curl/8.1.1
+004a: Accept: */*
+0057: Content-Type: application/json
+0077: Content-Length: 2
+008a: 
+=> Send data, 2 bytes (0x2)
+0000: {\
+<= Recv header, 35 bytes (0x23)
+0000: HTTP/1.1 422 Unprocessable Entity
+<= Recv header, 37 bytes (0x25)
+0000: date: Sun, 25 May 2025 07:44:05 GMT
+<= Recv header, 17 bytes (0x11)
+0000: server: uvicorn
+<= Recv header, 21 bytes (0x15)
+0000: content-length: 158
+<= Recv header, 32 bytes (0x20)
+0000: content-type: application/json
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 158 bytes (0x9e)
+0000: {"detail":[{"type":"json_invalid","loc":["body",1],"msg":"JSON d
+0040: ecode error","input":{},"ctx":{"error":"Expecting property name 
+0080: enclosed in double quotes"}}]}
+== Info: Connection #0 to host localhost left intact
+== Info: URL rejected: Malformed input to a URL function
+== Info: Closing connection -1

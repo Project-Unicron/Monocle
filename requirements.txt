@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sentence-transformers==2.2.2
+open_clip_torch==2.23.0
+torch==2.1.2
+transformers==4.36.2
+huggingface_hub==0.19.4
+Pillow
+numpy<2.0
